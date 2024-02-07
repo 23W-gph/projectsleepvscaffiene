@@ -1,0 +1,12 @@
+name: digitalhealth
+title: digitalhealth
+username: mahmoudsalih
+account: mahmoudsalih
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11156941
+bundleId: 8229250
+url: https://mahmoudsalih.shinyapps.io/digitalhealth/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
