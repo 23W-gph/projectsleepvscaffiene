@@ -20,7 +20,7 @@ ui <- fluidPage(
                               "Cans of Soda per Week" = "cans.of.soda.per.week")),
       # Input: Select range for average hours of sleep
       sliderInput("sleep_hours", "Average Hours of Sleep per Week:",
-                  min = 0, max = 24, value = c(0, 10))
+                  min = 0, max = 84, value = c(0, 10))
     ),
     
     # Show plot
