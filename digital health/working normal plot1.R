@@ -11,11 +11,11 @@ ggplot(trial1, aes(x = cups.of.coffee,
 ggplot(trial1, aes(x = cups.of.tea.per.week,
                    y = average.hours.if.sleep.week)) +
   geom_line()
-  ggplot(trial1, aes(x = cans.of.energy.drinks.per.week,
-                    y = average.hours.if.sleep.week)) +
-    geom_line()
-  ggplot(trial1, aes(x = cans.of.soda.per.week,
-                    y = average.hours.if.sleep.week)) +
-    geom_line()
+ggplot(trial1, aes(x = cans.of.energy.drinks.per.week,
+                   y = average.hours.if.sleep.week)) +
+  geom_line()
+ggplot(trial1, aes(x = cans.of.soda.per.week,
+                   y = average.hours.if.sleep.week)) +
+  geom_line()
 
 

@@ -1,5 +1,5 @@
 
-data <- read.csv("C:/Users/DELL/Desktop/digital health/digital/trial1.csv")
+data <- read.csv("trial1.csv")
 
 cups_of_coffee <- trial1$cups.of.coffee
 average_hours_of_sleep <- trial1$average.hours.if.sleep.week

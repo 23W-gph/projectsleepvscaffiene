@@ -34,7 +34,7 @@ ui <- fluidPage(
 server <- function(input, output) {
   
   # Load dataset
-  data <- read.csv("C:/Users/DELL/Desktop/digital health/digital/digital health/trial1.csv")
+  data <- read.csv("trial1.csv")
   
   # Filter data based on average hours of sleep
   filtered_data <- reactive({
@@ -45,7 +45,7 @@ server <- function(input, output) {
   # Render plot
   output$sleep_vs_variable <- renderPlot({
     ggplot(filtered_data(), aes_string(x = input$x_var, y = "average.hours.if.sleep.week")) +
-      geom_line() +
+      geom_point() +
       labs(x = input$x_var, y = "Average Hours of Sleep per Week") +
       theme_minimal()
   })
